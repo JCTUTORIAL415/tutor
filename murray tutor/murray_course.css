@@ -1,0 +1,78 @@
+body {
+    background: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #000080; /* Navy */
+    text-align: center;
+    font-size: 2.5em; /* 調整字體大小 */
+    margin: 20px 0;
+}
+
+.description1, .description, .conclusion {
+    text-align: center;
+    color: #708090;
+    font-size: 1.2em; /* 調整字體大小 */
+    margin: 10px 0;
+}
+
+.description1 {
+    font-size: 1.5em; /* 調整字體大小 */
+}
+
+.attention {
+    font-size: 1.2em; /* 調整字體大小 */
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 間距 */
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.center-image {
+    display: block;
+    margin: 20px auto; /* 上下20px，左右自動 */
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.responsive-video {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.line-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto; /* 上下20px，左右自動 */
+    border-radius: 20px;
+}
