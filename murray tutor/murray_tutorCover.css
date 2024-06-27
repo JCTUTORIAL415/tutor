@@ -1,0 +1,49 @@
+body {
+    background-image: url(spiderman-in-the-corner-hr6k8abdba0fbnv6.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.title {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 20px; /* 調整左側邊距 */
+    white-space: nowrap; /* 確保標題文字不換行 */
+    font-size: 3.5em; /* 較小的字體大小 */
+}
+
+.dropdown {
+    text-align: center;
+    margin-top: 20px; /* 與標題之間的距離 */
+}
+
+/* 響應式字體大小 */
+@media (max-width: 576px) {
+    .title {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .title {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 993px) {
+    .title {
+        font-size: 3.5em;
+    }
+}
+
